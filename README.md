@@ -41,7 +41,7 @@ This project focuses on multi-class kidney CT scan classification using a pre-tr
 ### Confusion Matrix Evaluation
 Below is the 4-class confusion matrix demonstrating the model's performance across all categories:
 
-![Confusion Matrix](CONF_MATRIX.png)
+![Confusion Matrix](outputs/CONF_MATRIX.png)
 
 ---
 
@@ -51,7 +51,7 @@ Grad-CAM (Gradient-weighted Class Activation Mapping) was used to visualize the 
 
 These visualizations help improve model interpretability by highlighting areas the network focuses on when classifying kidney conditions.
 
-![Grad-CAM Model Attention Map](GRAD_CAM_RESULTS.jpg)
+![Grad-CAM Model Attention Map](outputs/GRAD_CAM_RESULTS.jpg)
 
 ---
 
