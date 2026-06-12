@@ -51,7 +51,7 @@ Grad-CAM (Gradient-weighted Class Activation Mapping) was used to visualize the 
 
 These visualizations help improve model interpretability by highlighting areas the network focuses on when classifying kidney conditions.
 
-![Grad-CAM Model Attention Map](outputs/GRAD_CAM_RESULTS.jpg)
+![Grad-CAM Model Attention Map](outputs/GRAD_CAM_RESULTS.png)
 
 ---
 
