@@ -2,10 +2,10 @@
 
 A deep learning project for classifying kidney CT scan images into four diagnostic categories:
 
-* Normal
-* Cyst
-* Tumor
-* Stone
+* **Normal**
+* **Cyst**
+* **Tumor**
+* **Stone**
 
 The model was developed using PyTorch and Transfer Learning with ResNet50, achieving strong classification performance while incorporating Grad-CAM visualizations for explainability.
 
@@ -23,7 +23,7 @@ This project focuses on multi-class kidney CT scan classification using a pre-tr
 
 * Transfer Learning using ResNet50
 * Data Augmentation and Image Preprocessing
-* Two-Stage Fine-Tuning Strategy
+* Two-Stage Fine- Tuning Strategy
 * Multi-Class Classification
 * Confusion Matrix Evaluation
 * Precision, Recall, and F1-Score Analysis
@@ -33,10 +33,15 @@ This project focuses on multi-class kidney CT scan classification using a pre-tr
 
 ## Results
 
-| Metric            | Score  |
-| ----------------- | ------ |
-| Test Accuracy     | 94.05% |
-| Weighted F1-Score | 94.09% |
+| Metric | Score |
+| :--- | :--- |
+| **Test Accuracy** | 94.05% |
+| **Weighted F1-Score** | 94.09% |
+
+### Confusion Matrix Evaluation
+Below is the 4-class confusion matrix demonstrating the model's performance across all categories:
+
+![Confusion Matrix](CONF_MATRIX.png)
 
 ---
 
@@ -45,6 +50,8 @@ This project focuses on multi-class kidney CT scan classification using a pre-tr
 Grad-CAM (Gradient-weighted Class Activation Mapping) was used to visualize the regions of CT scans that influenced the model's predictions.
 
 These visualizations help improve model interpretability by highlighting areas the network focuses on when classifying kidney conditions.
+
+![Grad-CAM Model Attention Map](GRAD_CAM_RESULTS.jpg)
 
 ---
 
