@@ -1,4 +1,4 @@
-## Demo
+## HEAT-MAP (GRAD-CAM)
 
 <p align="center">
   <img src="outputs/GRAD_CAM_RESULTS.png" width="900">
